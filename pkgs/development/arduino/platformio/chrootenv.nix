@@ -21,6 +21,7 @@ let
 
 in buildFHSUserEnv {
   name = "platformio";
+  inherit version;
 
   targetPkgs = pio-pkgs;
   multiPkgs = pio-pkgs;
