@@ -11,6 +11,7 @@ let
     in (with pkgs; [
       zlib
       git
+      gcc
     ]) ++ (with python.pkgs; [
       python
       setuptools
