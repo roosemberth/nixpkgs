@@ -68865,8 +68865,6 @@ self: {
        ];
        description = "Permissively licensed D-Bus client library";
        license = lib.licenses.bsd3;
-       hydraPlatforms = lib.platforms.none;
-       broken = true;
      }) {};
 
   "d10" = callPackage
